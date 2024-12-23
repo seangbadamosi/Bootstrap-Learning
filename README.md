@@ -54,3 +54,17 @@ In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px b
 * the classes for text colors are: .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light:
 
 * the classes for background are text-bg-success,text-bg-info,bg-danger,bg-dark.
+
+## Lesson 5 
+* tables
+
+* class table-striped adds zebra stripes to a table
+* class table-bordered adds borders on all row and col for table
+* class table-hover adds hover effect on tables
+* class table-dark adds a black background to the table(Making it look like it is in dark mode)
+* you can also add hover class or striped on a table -dark class (it is realy nice)
+* table-borderless removes border in the table
+* table-color gives the table row a color eg table-info 
+* the .table-sm class makes the table smaller by cutting cell padding in half:
+* the .table-responsive class adds a scrollbar to the table when needed (when it is too big horizontally):
+you can also decide at which screen size u need the scroll ba eg table-responsive-md etc.
