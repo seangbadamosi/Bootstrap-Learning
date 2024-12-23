@@ -48,3 +48,9 @@ In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px b
 * Bootstrap 5 will style <mark> and .mark with a yellow background color and some padding:
 
 * text-start,text-center,text-align : is used to align text left, center and right;
+
+## Lesson 4
+
+* the classes for text colors are: .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light:
+
+* the classes for background are text-bg-success,text-bg-info,bg-danger,bg-dark.
