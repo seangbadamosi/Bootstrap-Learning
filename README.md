@@ -68,3 +68,18 @@ In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px b
 * the .table-sm class makes the table smaller by cutting cell padding in half:
 * the .table-responsive class adds a scrollbar to the table when needed (when it is too big horizontally):
 you can also decide at which screen size u need the scroll ba eg table-responsive-md etc.
+
+## Lesson 6
+* images
+
+* class rounded adds rounded corners to a picture 
+* rounded-circle shapes picture to a circle
+* img-thumbnail shapes the image to a thumbnail (bordered)
+
+#### Aligning Images
+* Float-start floats the image to the left
+* float-right floats the image to the right 
+### Centering Images 
+* mx-auto d-block first mx-auto for the margin and the d-block to change the display type from inline to block 
+#### continue
+* the .img-fluid class applies max-width: 100%; and height: auto; to the image: it is also good for respopnsive-img
