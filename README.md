@@ -91,3 +91,20 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * by giving class of alert-link to any links inside the alert box to create "matching colored links":
 * you can choose to give alerts a closing feature by adding class of alert-dismissiable then the button should have btn-close and the data-bs-dimiss="alert";
 * animated alerts add th class of fade and show to alert and it creates an animated feature whether it fades and shows
+
+## Lesson 8
+* Buttons
+* The button classes can be used on a, button, or  input elements:
+* there is also button outline by using btn-outline-secondary eg
+* button sizes
+* by adding btn-lg or btn-sm you can edit buttons sizes
+* To create a block level button that spans the entire width of the parent element, use the .d-grid "helper" class on the parent element and btn-block on the btn class there are easy to edit
+* if there are many block display buttons you can control them using the class gap
+* active and disabeled buttons : active makes it looks like a button is pressed while disableled makes button unclickable;
+* spinner btn: they spine adding d sprinter feature to btn
+
+
+### CAUTION 
+Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link. In real life it should of course been a real URL to the "Search" page.
+
+

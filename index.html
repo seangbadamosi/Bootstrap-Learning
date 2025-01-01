@@ -15,33 +15,59 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Lesson 7  -->
+    <!-- Lesson 8  -->
 
-    <!-- Alerts -->
+    <!-- Buttons -->
 
     <div class="container mt-3">
-        <div class="alert alert-success">
-            <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
-        </div>
-        <div class="alert alert-info">
-            <strong>Info!</strong> This alert box could indicate a neutral informative change or action.</a>.
+        <!-- default btn -->  
+        <button type="button" class="btn">Basic</button>
+
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button><br><br>
+
+        <!-- other tags that btn works for -->
+        <a href="#" class="btn btn-success">Link Button</a>
+        <button type="button" class="btn btn-success">Button</button>
+        <input type="button" class="btn btn-success" value="Input Button"><br><br>
+
+        <!-- btn outline -->
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button><br><br>
+
+        <!-- button sizes -->
+        <button type="button" class="btn btn-primary btn-lg">Large</button>
+        <button type="button" class="btn btn-primary">Default</button>
+        <button type="button" class="btn btn-primary btn-sm">Small</button>
+
+        <!-- block level button -->
+        <div class="d-grid py-5">
+            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
         </div>
 
-        <!-- dismisable alerts -->
-        <div class="alert alert-info alert-dismissible">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
-        </div>  
-        <div class="alert alert-info alert-dismissible">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
-        </div>
+        <!-- for alignment and structure -->
+        <div class="d-grid gap-3">
+            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+        </div><br>
 
-        <!-- animated the close icon will fade and then show -->
-        <div class="alert alert-dark alert-dismissible fade show">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Dark!</strong> Dark grey alert.
-        </div>
+        <!-- Active/ Disabled btns -->
+        <button type="button" disabled>diasbled button</button>
+        <button type="button" class="active">diasbled button</button>
+        <a href="" class="btn btn-secondary disabled">click</a>
+        <a href="" class="btn btn-secondary active">click</a>
+
+        <!-- for the spinner -->
+        <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+        </button>
+        
+        <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+        </button>
     </div>
 
     <!-- Latest compiled JavaScript -->
