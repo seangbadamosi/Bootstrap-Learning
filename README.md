@@ -83,3 +83,11 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * mx-auto d-block first mx-auto for the margin and the d-block to change the display type from inline to block 
 #### continue
 * the .img-fluid class applies max-width: 100%; and height: auto; to the image: it is also good for respopnsive-img
+
+## Lesson 7 
+* Alerts
+* alerts provides an easy way to create predefined alert messages:
+* Alerts are created with the .alert class, followed by one of the contextual classes .alert-success, .alert-info, .alert-warning, .alert-danger.
+* by giving class of alert-link to any links inside the alert box to create "matching colored links":
+* you can choose to give alerts a closing feature by adding class of alert-dismissiable then the button should have btn-close and the data-bs-dimiss="alert";
+* animated alerts add th class of fade and show to alert and it creates an animated feature whether it fades and shows
