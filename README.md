@@ -45,7 +45,7 @@ In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px b
 
 * small and class of small will make text smaller for secondary heading
 
-* Bootstrap 5 will style <mark> and .mark with a yellow background color and some padding:
+* Bootstrap 5 will style (mark) and .mark with a yellow background color and some padding:
 
 * text-start,text-center,text-align : is used to align text left, center and right;
 
@@ -56,7 +56,7 @@ In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px b
 * the classes for background are text-bg-success,text-bg-info,bg-danger,bg-dark.
 
 ## Lesson 5 
-* tables
+#### tables
 
 * class table-striped adds zebra stripes to a table
 * class table-bordered adds borders on all row and col for table
@@ -70,7 +70,7 @@ In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px b
 you can also decide at which screen size u need the scroll ba eg table-responsive-md etc.
 
 ## Lesson 6
-* images
+#### images
 
 * class rounded adds rounded corners to a picture 
 * rounded-circle shapes picture to a circle
@@ -85,7 +85,7 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * the .img-fluid class applies max-width: 100%; and height: auto; to the image: it is also good for respopnsive-img
 
 ## Lesson 7 
-* Alerts
+#### Alerts
 * alerts provides an easy way to create predefined alert messages:
 * Alerts are created with the .alert class, followed by one of the contextual classes .alert-success, .alert-info, .alert-warning, .alert-danger.
 * by giving class of alert-link to any links inside the alert box to create "matching colored links":
@@ -93,7 +93,7 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * animated alerts add th class of fade and show to alert and it creates an animated feature whether it fades and shows
 
 ## Lesson 8
-* Buttons
+#### Buttons
 * The button classes can be used on a, button, or  input elements:
 * there is also button outline by using btn-outline-secondary eg
 * button sizes
@@ -103,7 +103,7 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * active and disabeled buttons : active makes it looks like a button is pressed while disableled makes button unclickable;
 * spinner btn: they spine adding d spinner feature to btn
 ### continue
-* button-group
+#### button-group
 * by using a div element with class of btn-group then with a normal button classes the  btn  get a group effect
 * then for controlling the sizes of the group  you can use btn-group-sm and btn-group-lg 
 * then can also appear vertical by using a class called btn-group-vertical 
@@ -112,7 +112,7 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * by adding dropdown classes we can create dropdown features th classes include dropdown-toggle, dropdown-menu, dropdown-item.
 
 ## Lesson 9 
-* Badges 
+#### Badges 
 * are used to add additional information to any content 
 * we can add color to them with the bg- classes after writing class of badge you write (bg-primary)
 * the badges can also bve round by using the class of rounded-pill
@@ -122,7 +122,7 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link. In real life it should of course been a real URL to the "Search" page.
 
 ## Lesson 10
-* Progress bars
+#### Progress bars
 * a progress bar helps with how far a user is in a process
 * to create a default progress bar you use the class of progress and progress bar (both are classes are in a div) and it should have the atrribute of width eg width="60%"
 * note: 1rem = 16px ;
@@ -133,7 +133,7 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * multiple progress bars it means it can be also stacked by giving class of progress and and the children div should have class progress-bar (the main div have class of progress while the children should have class of progress-bar )
 
 ## Lesson 11
-* spinner
+#### spinner
 * to create a spinner/loader use the spinner-border class
 * to color use color class text-info 
 * use the spinner-grow if you want the spinner to grow instead of spin 
@@ -142,9 +142,9 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * spinner-border is the one that goes in circles while spinner-grow is the one that fades in and out
 
 ## Lesson 12
-* Pagination
+#### Pagination
 * pagination is used when you are making a website with webpages(or more than one)
-* to creat pagination add pagination class to the ul and add page-item to the li and add page-link to the <a> tag
+* to creat pagination add pagination class to the ul and add page-item to the li and add page-link to the (a) tag
 * active class helps to highlight the current page in the page-item class
 * disabled state helps with disabled pages making them unclickable (use the class disabled [not attrinute] to make the pagination unclickable)
 * pagination size can be adjusted using the class of pagination-lg or pagination-sm in ul 
@@ -154,3 +154,16 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * BREADCRUMBS
 * breadcrumbs helps to indicate the current page's location within a navigational hierarchy that automatically adds separators via CSS.
 
+## Lesson 13
+#### List Groups
+* The most basic list group is an unordered list with list items:
+* you need class of list-group(ul) and list-group-item(li)
+* class of active highlight the current item
+* list group with linked items : To create a list group with linked items, use (div) instead of (ul) and (a) instead of (li). Optionally, add the .list-group-item-action class if you want a grey background color on hover;
+* by adding class of disabled to the list-group-item you can you disable it (class="list-group-item disabled")
+* list-group-flush : by adding list-group-flush to the class of list-group (it removes some borders and rounded corners);
+* list-group-numbered: to create list items with numbers in them (list-group-numbered is added to the class list-group);
+* list-group-horizontal: helps to display list-groups horizontally;  
+* contextual class(colors): by using list-group-items-primary or list-group-items-success;
+* Link items with Contextual Classes
+* list with badges Combine .badge classes with utility/helper classes to add badges inside the list group:

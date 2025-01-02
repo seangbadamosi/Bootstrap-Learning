@@ -12,90 +12,99 @@
         
     </style>
 
-    <title>Pagination</title>
+    <title>List Groups</title>
 </head>
 <body>
     <!-- Lesson 12  -->
 
-    <!-- Pagination -->   
+    <!-- List Groups -->   
+    
     <div class="container mt-3">    
-        <!-- default pagination -->
-        <ul class="pagination">
-            <li class="page-item"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
+        <!-- default -->
+        <ul class="list-group">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
         </ul>
 
-        <!-- active class -->
-        <ul class="pagination">
-            <li class="page-item"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item active"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
+        <!-- list group with active -->
+        <ul class="list-group mt-2">
+            <li class="list-group-item active">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
         </ul>
 
-        <!-- Disabled page -->
-        <ul class="pagination">
-            <li class="page-item disabled"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
+        <!-- list-group with hover effect -->
+        <div class="list-group mt-3">
+            <a href="#" class="list-group-item list-group-item-action">First item</a>
+            <a href="#" class="list-group-item list-group-item-action">Second item</a>
+            <a href="#" class="list-group-item list-group-item-action">Third item</a>
+        </div>
+
+        <!-- disabled list-group -->
+        <div class="list-group mt-3">
+            <a href="#" class="list-group-item list-group-item-action disabled">First item</a>
+            <a href="#" class="list-group-item list-group-item-action">Second item</a>
+            <a href="#" class="list-group-item list-group-item-action">Third item</a>
+        </div>
+
+        <!-- list-group-flush removes rounded corners -->
+        <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+            <li class="list-group-item">Fourth item</li>
         </ul>
 
-        <!-- Pagination sizing -->
-        <ul class="pagination pagination-lg">
-            <li class="page-item"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
+        <!-- list group numbered -->
+        <ol class="list-group list-group-numbered mt-3">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ol>
+
+        <!-- horizontal group -->
+        <ul class="list-group list-group-horizontally mt-3">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
         </ul>
 
-        <!-- Disabled State -->
-        <ul class="pagination">
-            <li class="page-item disabled"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
+        <ul class="list-group list-group-horizontally mt-3">
+            <li class="list-group-item list-group-item-danger">First item</li>
+            <li class="list-group-item list-group-item-secondary">Second item</li>
+            <li class="list-group-item">Third item</li>
         </ul>
 
-        <!-- Pagination Alignment -->
-        <ul class="pagination">
-            <li class="page-item"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
-        </ul>
-        <ul class="pagination justify-content-center">
-            <li class="page-item"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
-        </ul>
-        <ul class="pagination justify-content-end">
-            <li class="page-item"><a href="" class="page-link">prev</a></li>
-            <li class="page-item"><a href="" class="page-link">1</a></li>
-            <li class="page-item"><a href="" class="page-link">2</a></li>
-            <li class="page-item"><a href="" class="page-link">3</a></li>
-            <li class="page-item"><a href="" class="page-link">next</a></li>
-        </ul>
+        <!-- link with contextual class it has hover effect -->
+        <div class="list-group mt-3">
+            <a href="#" class="list-group-item list-group-item-action">Action item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Secondary item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Info item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Warning item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Danger item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Primary item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Dark item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">Light item</a>
+        </div>
 
-        <!-- Breadcrumbs -->
-        <ul class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Photos</a></li>
-            <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
-            <li class="breadcrumb-item"><a href="#">Italy</a></li>
-            <li class="breadcrumb-item active">Rome</li>
+        <!-- list with badges -->
+        <ul class="list-group mt-3">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Inbox
+                <span class="badge bg-primary rounded-pill">12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Ads
+                <span class="badge bg-primary rounded-pill">50</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Junk
+                <span class="badge bg-primary rounded-pill">99</span>
+            </li>
         </ul>
     </div>
-
 
 
     <!-- Latest compiled JavaScript -->
