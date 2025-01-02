@@ -12,38 +12,57 @@
         
     </style>
 
-    <title>Document</title>
+    <title>Progress Bars</title>
 </head>
 <body>
-    <!-- Lesson 9  -->
+    <!-- Lesson 10  -->
 
-    <!-- Badges -->
-
+    <!-- Progress Bar -->
     <div class="container">
-        <!-- normal badge -->
-        <h1>Example heading <span class="badge bg-secondary">New</span></h1>
-        <h2>Example heading <span class="badge bg-secondary">New</span></h2>
-        <h3>Example heading <span class="badge bg-secondary">New</span></h3>
-        <h4>Example heading <span class="badge bg-secondary">New</span></h4>
-        <h5>Example heading <span class="badge bg-secondary">New</span></h5>
-        <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+        <div class="progress my-2">
+            <div class="progress-bar bg-danger" style="width:15%">15%</div>
+        </div>
+        <div class="progress my-2">
+            <div class="progress-bar bg-warning" style="width: 30%;">30%</div>
+        </div>
 
-        <!-- colored badge -->
-        <span class="badge bg-info">Info</span>
-        <span class="badge bg-primary">Info</span>
-        <span class="badge bg-success">Info</span><br>
+        <!-- default progress bar -->
+        <div class="progress my-2">
+            <div class="progress-bar" style="width: 75%;">75%</div>
+        </div>
 
-        <!-- rounded badge -->
-        <span class="badge rounded-pill bg-dark">bg-dark</span>
-        <span class="badge rounded-pill bg-secondary">bg-dark</span><br><br>
+        <!-- the height can be adjusted like this -->
+        <div class="progress my-2" style="height: 20px;">
+            <div class="progress-bar bg-success" style="width: 100%;">100%</div>
+        </div>
 
-        <!-- badge inside a btn -->
-        <button type="button" class="btn btn-primary">
-            Messages <span class="badge bg-danger">4</span>
-        </button>
-        <button type="button" class="btn btn-dark">
-            button <span class="badge bg-success">4</span>
-        </button>
+        <!-- text can also be written inside to show the process -->
+        <div class="progress my-2">
+            <div class="progress-bar bg-dark" style="width: 70%;">70%</div>
+        </div>
+
+        <!-- stripped progres bar -->
+        <div class="progress my-2">
+            <div class="progress-bar progress-bar-striped" style="width: 50%;"></div>
+        </div>
+
+        <!-- animated progress bar  -->
+        <div class="progress my-2">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%;"></div>
+        </div>
+
+        <!-- Progress bars -->
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width:40%">
+                Free Space
+            </div>
+            <div class="progress-bar bg-warning" style="width:10%">
+                Warning
+            </div>
+            <div class="progress-bar bg-danger" style="width:20%">
+                Danger
+            </div>
+        </div>
     </div>
 
     <!-- Latest compiled JavaScript -->

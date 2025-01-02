@@ -121,4 +121,14 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 ### CAUTION 
 Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link. In real life it should of course been a real URL to the "Search" page.
 
+## Lesson 10
+* Progress bars
+* a progress bar helps with how far a user is in a process
+* to create a default progress bar you use the class of progress and progress bar (both are classes are in a div) and it should have the atrribute of width eg width="60%"
+* note: 1rem = 16px ;
+* to change the height of the progress bar you use the style atrribute and the property of height eg style="height: 20px;"
+* text can be written iniside the progress bar to show the process
+* Use the .progress-bar-striped class to add stripes to the progress bars:
+* progress bar can also bae animated using the class of progress-bar-animated (make sure not to et the classes mixed)
+* multiple progress bars it means it can be also stacked by giving class of progress and and the children div should have class progress-bar (the main div have class of progress while the children should have class of progress-bar )
 
