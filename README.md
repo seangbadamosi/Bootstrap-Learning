@@ -149,3 +149,8 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * disabled state helps with disabled pages making them unclickable (use the class disabled [not attrinute] to make the pagination unclickable)
 * pagination size can be adjusted using the class of pagination-lg or pagination-sm in ul 
 * pagination alignment we can use utility classes to change the alignment of the pagination
+
+### continue 
+* BREADCRUMBS
+* breadcrumbs helps to indicate the current page's location within a navigational hierarchy that automatically adds separators via CSS.
+
