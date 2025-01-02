@@ -15,64 +15,34 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Lesson 8  -->
+    <!-- Lesson 9  -->
 
-    <!-- Buttons -->
+    <!-- button group -->
 
-    <div class="container mt-3">
-        <!-- default btn -->  
-        <button type="button" class="btn">Basic</button>
+    
+    <div class="btn-group btn-group-lg m-2">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+    </div>
 
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button><br><br>
+    <div class="btn-group-vertical m-2">
+        <button type="button" class="btn btn-warning">apple</button>
+        <button type="button" class="btn btn-warning">apple</button>
+        <button type="button" class="btn btn-warning">apple</button>
+    </div><br>
 
-        <!-- other tags that btn works for -->
-        <a href="#" class="btn btn-success">Link Button</a>
-        <button type="button" class="btn btn-success">Button</button>
-        <input type="button" class="btn btn-success" value="Input Button"><br><br>
-
-        <!-- btn outline -->
-        <button type="button" class="btn btn-outline-primary">Primary</button>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
-        <button type="button" class="btn btn-outline-success">Success</button><br><br>
-
-        <!-- button sizes -->
-        <button type="button" class="btn btn-primary btn-lg">Large</button>
-        <button type="button" class="btn btn-primary">Default</button>
-        <button type="button" class="btn btn-primary btn-sm">Small</button>
-
-        <!-- block level button -->
-        <div class="d-grid py-5">
-            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    <!-- btn with dropdown -->
+    <div class="btn-group mx-3">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
         </div>
-
-        <!-- for alignment and structure -->
-        <div class="d-grid gap-3">
-            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
-            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
-            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
-        </div><br>
-
-        <!-- Active/ Disabled btns -->
-        <button type="button" disabled>diasbled button</button>
-        <button type="button" class="active">diasbled button</button>
-        <a href="" class="btn btn-secondary disabled">click</a>
-        <a href="" class="btn btn-secondary active">click</a><br><br>
-
-        <!-- for the spinner -->
-        <button class="btn btn-primary">
-            <span class="spinner-border spinner-border-sm"></span>
-        </button>
-        
-        <button class="btn btn-primary">
-            <span class="spinner-grow spinner-grow-sm"></span>
-            Loading..
-        </button>
-        
-        <button class="btn btn-primary">
-            <span class="spinner-border spinner-border-sm"></span>
-            Loading..
-        </button>
+        </div>
     </div>
 
     <!-- Latest compiled JavaScript -->

@@ -102,6 +102,14 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * if there are many block display buttons you can control them using the class gap
 * active and disabeled buttons : active makes it looks like a button is pressed while disableled makes button unclickable;
 * spinner btn: they spine adding d sprinter feature to btn
+### continue
+* button-group
+* by using a div element with class of btn-group then with a normal button classes the  btn  get a group effect
+* then for controlling the sizes of the group  you can use btn-group-sm and btn-group-lg 
+* then can also appear vertical by using a class called btn-group-vertical 
+* button are inline elements so if you use more than one btn-group class the btn-group will appear side by side 
+* Nesting btn groups and dropdowns 
+* by adding dropdown classes we can create dropdown features th classes include dropdown-toggle, dropdown-menu, dropdown-item.
 
 
 ### CAUTION 
