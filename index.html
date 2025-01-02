@@ -17,32 +17,33 @@
 <body>
     <!-- Lesson 9  -->
 
-    <!-- button group -->
+    <!-- Badges -->
 
-    
-    <div class="btn-group btn-group-lg m-2">
-        <button type="button" class="btn btn-primary">Apple</button>
-        <button type="button" class="btn btn-primary">Samsung</button>
-        <button type="button" class="btn btn-primary">Sony</button>
-    </div>
+    <div class="container">
+        <!-- normal badge -->
+        <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+        <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+        <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+        <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+        <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+        <h6>Example heading <span class="badge bg-secondary">New</span></h6>
 
-    <div class="btn-group-vertical m-2">
-        <button type="button" class="btn btn-warning">apple</button>
-        <button type="button" class="btn btn-warning">apple</button>
-        <button type="button" class="btn btn-warning">apple</button>
-    </div><br>
+        <!-- colored badge -->
+        <span class="badge bg-info">Info</span>
+        <span class="badge bg-primary">Info</span>
+        <span class="badge bg-success">Info</span><br>
 
-    <!-- btn with dropdown -->
-    <div class="btn-group mx-3">
-        <button type="button" class="btn btn-primary">Apple</button>
-        <button type="button" class="btn btn-primary">Samsung</button>
-        <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Tablet</a>
-            <a class="dropdown-item" href="#">Smartphone</a>
-        </div>
-        </div>
+        <!-- rounded badge -->
+        <span class="badge rounded-pill bg-dark">bg-dark</span>
+        <span class="badge rounded-pill bg-secondary">bg-dark</span><br><br>
+
+        <!-- badge inside a btn -->
+        <button type="button" class="btn btn-primary">
+            Messages <span class="badge bg-danger">4</span>
+        </button>
+        <button type="button" class="btn btn-dark">
+            button <span class="badge bg-success">4</span>
+        </button>
     </div>
 
     <!-- Latest compiled JavaScript -->

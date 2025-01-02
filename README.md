@@ -111,6 +111,12 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * Nesting btn groups and dropdowns 
 * by adding dropdown classes we can create dropdown features th classes include dropdown-toggle, dropdown-menu, dropdown-item.
 
+## Lesson 9 
+* Badges 
+* are used to add additional information to any content 
+* we can add color to them with the bg- classes after writing class of badge you write (bg-primary)
+* the badges can also bve round by using the class of rounded-pill
+* badge can be used iniside a btn by putting the badge class inside a span in the button
 
 ### CAUTION 
 Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link. In real life it should of course been a real URL to the "Search" page.
