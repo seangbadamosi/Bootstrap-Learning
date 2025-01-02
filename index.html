@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,58 +12,40 @@
         
     </style>
 
-    <title>Progress Bars</title>
+    <title>Spinner</title>
 </head>
 <body>
-    <!-- Lesson 10  -->
+    <!-- Lesson 11  -->
 
-    <!-- Progress Bar -->
-    <div class="container">
-        <div class="progress my-2">
-            <div class="progress-bar bg-danger" style="width:15%">15%</div>
-        </div>
-        <div class="progress my-2">
-            <div class="progress-bar bg-warning" style="width: 30%;">30%</div>
-        </div>
+    <!-- Spinners -->   
+    <div class="container mt-3">    
+        <!-- default spinner -->
+        <div class="spinner-border"></div><br><br>
+    
+        <!-- spinner with colors -->
+        <div class="spinner-border text-secondary"></div>
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-success"></div><br><br>
 
-        <!-- default progress bar -->
-        <div class="progress my-2">
-            <div class="progress-bar" style="width: 75%;">75%</div>
-        </div>
+        <!-- spnner that fade in and out -->
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div><br><br>
 
-        <!-- the height can be adjusted like this -->
-        <div class="progress my-2" style="height: 20px;">
-            <div class="progress-bar bg-success" style="width: 100%;">100%</div>
-        </div>
+        <!-- adjust spinner size -->
+        <div class="spinner-grow spinner-grow-lg"></div>
+        <div class="spinner-border spinner-border-sm"></div><br><br>
 
-        <!-- text can also be written inside to show the process -->
-        <div class="progress my-2">
-            <div class="progress-bar bg-dark" style="width: 70%;">70%</div>
-        </div>
-
-        <!-- stripped progres bar -->
-        <div class="progress my-2">
-            <div class="progress-bar progress-bar-striped" style="width: 50%;"></div>
-        </div>
-
-        <!-- animated progress bar  -->
-        <div class="progress my-2">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%;"></div>
-        </div>
-
-        <!-- Progress bars -->
-        <div class="progress">
-            <div class="progress-bar bg-success" style="width:40%">
-                Free Space
-            </div>
-            <div class="progress-bar bg-warning" style="width:10%">
-                Warning
-            </div>
-            <div class="progress-bar bg-danger" style="width:20%">
-                Danger
-            </div>
-        </div>
+        <!-- spinner button -->
+        <button class="btn btn-info" type="button">
+            button <span class="spinner-border spinner-border-sm"></span>
+        </button>
+        <button type="button" class="btn btn-success">
+            button <span class=" spinner-grow spinner-grow-sm"></span>
+        </button>
     </div>
+
+
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.js"></script>

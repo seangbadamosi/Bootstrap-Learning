@@ -101,7 +101,7 @@ you can also decide at which screen size u need the scroll ba eg table-responsiv
 * To create a block level button that spans the entire width of the parent element, use the .d-grid "helper" class on the parent element and btn-block on the btn class there are easy to edit
 * if there are many block display buttons you can control them using the class gap
 * active and disabeled buttons : active makes it looks like a button is pressed while disableled makes button unclickable;
-* spinner btn: they spine adding d sprinter feature to btn
+* spinner btn: they spine adding d spinner feature to btn
 ### continue
 * button-group
 * by using a div element with class of btn-group then with a normal button classes the  btn  get a group effect
@@ -132,3 +132,11 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * progress bar can also bae animated using the class of progress-bar-animated (make sure not to et the classes mixed)
 * multiple progress bars it means it can be also stacked by giving class of progress and and the children div should have class progress-bar (the main div have class of progress while the children should have class of progress-bar )
 
+## Lesson 11
+* spinner
+* to create a spinner/loader use the spinner-border class
+* to color use color class text-info 
+* use the spinner-grow if you want the spinner to grow instead of spin 
+* adjust spinner size by using spinner-grow-lg or spinner-border-sm
+* spinner can be used in buttons which we done before when we treated buttons (by adding the class of btn btn-color and you put a span inside the button give it a class of spinner-border or spinner-grow [write text in the button before the span])
+* spinner-border is the one that goes in circles while spinner-grow is the one that fades in and out
