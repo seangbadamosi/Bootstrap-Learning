@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,37 +12,81 @@
         
     </style>
 
-    <title>Spinner</title>
+    <title>Pagination</title>
 </head>
 <body>
-    <!-- Lesson 11  -->
+    <!-- Lesson 12  -->
 
-    <!-- Spinners -->   
+    <!-- Pagination -->   
     <div class="container mt-3">    
-        <!-- default spinner -->
-        <div class="spinner-border"></div><br><br>
-    
-        <!-- spinner with colors -->
-        <div class="spinner-border text-secondary"></div>
-        <div class="spinner-border text-primary"></div>
-        <div class="spinner-border text-success"></div><br><br>
+        <!-- default pagination -->
+        <ul class="pagination">
+            <li class="page-item"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
 
-        <!-- spnner that fade in and out -->
-        <div class="spinner-grow text-primary"></div>
-        <div class="spinner-grow text-success"></div>
-        <div class="spinner-grow text-info"></div><br><br>
+        <!-- active class -->
+        <ul class="pagination">
+            <li class="page-item"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item active"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
 
-        <!-- adjust spinner size -->
-        <div class="spinner-grow spinner-grow-lg"></div>
-        <div class="spinner-border spinner-border-sm"></div><br><br>
+        <!-- Disabled page -->
+        <ul class="pagination">
+            <li class="page-item disabled"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
 
-        <!-- spinner button -->
-        <button class="btn btn-info" type="button">
-            button <span class="spinner-border spinner-border-sm"></span>
-        </button>
-        <button type="button" class="btn btn-success">
-            button <span class=" spinner-grow spinner-grow-sm"></span>
-        </button>
+        <!-- Pagination sizing -->
+        <ul class="pagination pagination-lg">
+            <li class="page-item"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
+
+        <!-- Disabled State -->
+        <ul class="pagination">
+            <li class="page-item disabled"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
+
+        <!-- Pagination Alignment -->
+        <ul class="pagination">
+            <li class="page-item"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
+        <ul class="pagination justify-content-end">
+            <li class="page-item"><a href="" class="page-link">prev</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">next</a></li>
+        </ul>
+
     </div>
 
 

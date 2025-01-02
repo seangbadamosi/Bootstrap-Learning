@@ -140,3 +140,12 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * adjust spinner size by using spinner-grow-lg or spinner-border-sm
 * spinner can be used in buttons which we done before when we treated buttons (by adding the class of btn btn-color and you put a span inside the button give it a class of spinner-border or spinner-grow [write text in the button before the span])
 * spinner-border is the one that goes in circles while spinner-grow is the one that fades in and out
+
+## Lesson 12
+* Pagination
+* pagination is used when you are making a website with webpages(or more than one)
+* to creat pagination add pagination class to the ul and add page-item to the li and add page-link to the <a> tag
+* active class helps to highlight the current page in the page-item class
+* disabled state helps with disabled pages making them unclickable (use the class disabled [not attrinute] to make the pagination unclickable)
+* pagination size can be adjusted using the class of pagination-lg or pagination-sm in ul 
+* pagination alignment we can use utility classes to change the alignment of the pagination
