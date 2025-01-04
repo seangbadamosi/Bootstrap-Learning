@@ -181,3 +181,16 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * card link class helps to add a blue color to a link and a hover function
 * image can be added to card usin the class card-img-top or card-img-bottom (if you are using card-img-top then the img class [that is card-img-top or card-img-bottom] should be before or after card-body)
 * card-img-overlay turns an image into a card background and we use the class card-img-overlay to add text on top of the image (kind of power clipping[graphics design stuff]).
+
+## Lesson 15 
+#### Dropdowns
+* A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list
+* The dropdown class indicates a dropdown menu
+* To open the dropdown menu, use a button or a link with a class of dropdown-toggle and the data-bs-toggle="dropdown" attribute
+* Add the .dropdown-menu class to a container element, like div or ul, to actually build the dropdown menu. Then add the dropdown-item class to each element (links or buttons) inside the dropdown menu.
+* you can use class of divider in the elements hr (you can write it closing tag [optional])
+* disable and active class: active helps Highlight a specific dropdown item with the .active class (adds a blue background color) and disable class helps disable an item in the dropdown menu, use the .disabled class (gets a light-grey text color and a "no-parking-sign" icon on hover)
+* You can also create a "dropend" or "dropstart" menu, by adding the .dropend or .dropstart class to the dropdown element. Note that the arrow is added automatically:
+* you can make dropdown right or left aligned by using dropdown-menu-end or dropdown-menu-start
+* If you want the dropdown menu to expand upwards instead of downwards, change the div element with class="dropdown" to "dropup":
+* The .dropdown-item-text class is used to add plain text to a dropdown item, or used on links for default link styling.

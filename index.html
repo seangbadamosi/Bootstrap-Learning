@@ -43,10 +43,9 @@
         }
     </style>
 
-    <title>Cards</title>
+    <title>Dropdowns</title>
 </head>
 <body>
-
 
         <!-- Preloader -->
         <div id="preloader">
@@ -54,82 +53,103 @@
         </div>
 
 
+    <!-- Lesson 15 -->
 
-    <!-- Lesson 12  -->
-
-    <!-- Cards -->   
-
-    <!-- Basic Card --> 
-    <div class=" content container mt-3">
-        <div class="card">
-            <div class="card-body">Basic card</div>
+    <!-- Dropdowns -->   
+    <div class="content container mt-3">
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
         </div>
 
-        <!-- card semantic -->
-        <div class="card my-3 ">
-            <div class="card-header">contents</div>
-            <div class="card-body">contents</div>
-            <div class="card-footer">contents</div>
+        <!-- dropdown with divider (divider is like hr) -->
+        <div class="dropdown my-4">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                <li><hr class="dropdown-divider"></hr></li>
+                <li><a class="dropdown-item" href="#">Link 4</a></li>
+            </ul>
         </div>
 
-        <!-- Simple Card -->
-        <div class="col-4 my-4">
-            <div class="card text-center">
-                <div class="card-header">
-                    <div class="card-title">Header 1</div>
-                </div>
-                <div class="card-body">
-                    <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quia necessitatibus, vero itaque, temporibus, soluta provident quaerat cum iure tempora perferendis. Dolore, non voluptatum? Excepturi?</div>
-                </div>
-                <div class="card-footer text-center text">
-                    <a href="#" class="card-link">Lorem, ipsum.</div>
-                </div>
+        <div class="dropdown my-4">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-header">Header 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                <li><hr class="dropdown-divider"></hr></li>
+                <li><a class="dropdown-item" href="#">Link 4</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Link 1</a></li>  <!-- default -->
+                <li><a href="" class="dropdown-item active">Link 1</a></li> <!-- active -->
+                <li><a href="" class="dropdown-item disabled">Link 1</a></li> <!-- disabled -->
             </div>
+        </div>
 
-            <!-- Using link instead of local pictures 👌 -->
-            <div class="col-4 my-3 ">
-                <div class="card text-start">
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1727261909598-ce67f083f858?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beautiful Landscape">
-                    <div class="card-body">
-                        <h4 class="card-title">John Doe</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">See Profile</a>
-                    </div>
-                </div>
+        <!-- dropdown with dropdown facing left -->
+        <div class="dropdown dropstart" style="margin-left: 20vw;">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Link 1</a></li>  <!-- default -->
+                <li><a href="" class="dropdown-item active">Link 1</a></li> <!-- active -->
+                <li><a href="" class="dropdown-item disabled">Link 1</a></li> <!-- disabled -->
             </div>
-
-    <!-- adding image to card (card top)-->
-    <div class="card my-3" style="width:400px">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1735257676933-828bfbdc03a2?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image">
-        <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text.</p>
-            <a href="#" class="btn btn-primary">See Profile</a>
         </div>
-    </div>
 
-    <!-- card bottom -->
-    <div class="card my-3" style="width:400px">
-        <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text.</p>
-            <a href="#" class="btn btn-primary">See Profile</a>
+        <!-- right aligned -->
+        <div class="dropdown my-3" style="margin-left: 20vw;">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button right aligned
+            </button>
+            <div class="dropdown-menu dropdown-menu-end">
+                <li><a href="" class="dropdown-item">Link 1</a></li>  <!-- default -->
+                <li><a href="" class="dropdown-item active">Link 1</a></li> <!-- active -->
+                <li><a href="" class="dropdown-item disabled">Link 1</a></li> <!-- disabled -->
+            </div>
         </div>
-        <img class="card-img-bottom" src="https://images.unsplash.com/photo-1735257676933-828bfbdc03a2?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image">
-    </div>
 
-    <!-- card with image overlay -->
-    <div class="card m-5" style="width:500px">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1727261909598-ce67f083f858?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image">
-        <div class="card-img-overlay">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text.</p>
-            <a href="#" class="btn btn-primary">See Profile</a>
+        <div class="dropup">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropup button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
         </div>
-    </div>
-</div> 
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+            <li><a class="dropdown-item-text" href="#">Text Link</a></li>
+            <li><span class="dropdown-item-text">Just Text</span></li>
+        </ul>
+    </div> 
 
 
 
