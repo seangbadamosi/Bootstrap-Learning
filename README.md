@@ -167,3 +167,17 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * contextual class(colors): by using list-group-items-primary or list-group-items-success;
 * Link items with Contextual Classes
 * list with badges Combine .badge classes with utility/helper classes to add badges inside the list group:
+* by giving a horizontal list group class of list group action it expands the inidividual group item to have the width of the broswer (kind of like shifting form inline to inline-block display) [also makes it hoverable].
+
+
+## Lesson 14
+#### Cards
+* A card in Bootstrap 5 is a bordered box with some padding around its content. It includes options for headers, footers, content, colors, etc.
+* a card consist of different class the basics are card, card-header, card-body, card-footer
+* card header class adds a heading and the card footer adds a footer
+* by adding bg-primary you can give a card a color of blue
+* card-title helps to add titles to the card header
+* The card-text class is used to remove bottom margins for a p element if it is the last child (or the only one) inside card-body.
+* card link class helps to add a blue color to a link and a hover function
+* image can be added to card usin the class card-img-top or card-img-bottom (if you are using card-img-top then the img class [that is card-img-top or card-img-bottom] should be before or after card-body)
+* card-img-overlay turns an image into a card background and we use the class card-img-overlay to add text on top of the image (kind of power clipping[graphics design stuff]).

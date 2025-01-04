@@ -9,105 +9,129 @@
 
     <!-- Internal Css -->
     <style>
-        
+
+        /* Preloader Styles */
+        #preloader {
+            position: fixed;
+            top: 50;
+            left: 50;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .spinner {
+            border: 10px solid #f3f3f3;
+            border-top: 10px solid #3498db;
+            border-radius: 60%;
+            width: 12.5vw;
+            height: 25vh;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Content Styles (for demo purposes) */
+        .content {
+            display: none;
+        }
     </style>
 
-    <title>List Groups</title>
+    <title>Cards</title>
 </head>
 <body>
+
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="spinner"></div>
+        </div>
+
+
+
     <!-- Lesson 12  -->
 
-    <!-- List Groups -->   
-    
-    <div class="container mt-3">    
-        <!-- default -->
-        <ul class="list-group">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ul>
+    <!-- Cards -->   
 
-        <!-- list group with active -->
-        <ul class="list-group mt-2">
-            <li class="list-group-item active">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ul>
-
-        <!-- list-group with hover effect -->
-        <div class="list-group mt-3">
-            <a href="#" class="list-group-item list-group-item-action">First item</a>
-            <a href="#" class="list-group-item list-group-item-action">Second item</a>
-            <a href="#" class="list-group-item list-group-item-action">Third item</a>
+    <!-- Basic Card --> 
+    <div class=" content container mt-3">
+        <div class="card">
+            <div class="card-body">Basic card</div>
         </div>
 
-        <!-- disabled list-group -->
-        <div class="list-group mt-3">
-            <a href="#" class="list-group-item list-group-item-action disabled">First item</a>
-            <a href="#" class="list-group-item list-group-item-action">Second item</a>
-            <a href="#" class="list-group-item list-group-item-action">Third item</a>
+        <!-- card semantic -->
+        <div class="card my-3 ">
+            <div class="card-header">contents</div>
+            <div class="card-body">contents</div>
+            <div class="card-footer">contents</div>
         </div>
 
-        <!-- list-group-flush removes rounded corners -->
-        <ul class="list-group list-group-flush mt-3">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-            <li class="list-group-item">Fourth item</li>
-        </ul>
+        <!-- Simple Card -->
+        <div class="col-4 my-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <div class="card-title">Header 1</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quia necessitatibus, vero itaque, temporibus, soluta provident quaerat cum iure tempora perferendis. Dolore, non voluptatum? Excepturi?</div>
+                </div>
+                <div class="card-footer text-center text">
+                    <a href="#" class="card-link">Lorem, ipsum.</div>
+                </div>
+            </div>
 
-        <!-- list group numbered -->
-        <ol class="list-group list-group-numbered mt-3">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ol>
+            <!-- Using link instead of local pictures 👌 -->
+            <div class="col-4 my-3 ">
+                <div class="card text-start">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1727261909598-ce67f083f858?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beautiful Landscape">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
 
-        <!-- horizontal group -->
-        <ul class="list-group list-group-horizontally mt-3">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ul>
-
-        <ul class="list-group list-group-horizontally mt-3">
-            <li class="list-group-item list-group-item-danger">First item</li>
-            <li class="list-group-item list-group-item-secondary">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ul>
-
-        <!-- link with contextual class it has hover effect -->
-        <div class="list-group mt-3">
-            <a href="#" class="list-group-item list-group-item-action">Action item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Secondary item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Info item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Warning item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Danger item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Primary item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Dark item</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-light">Light item</a>
+<!-- adding image to card (card top)-->
+    <div class="card my-3" style="width:400px">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1735257676933-828bfbdc03a2?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image">
+        <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
         </div>
-
-        <!-- list with badges -->
-        <ul class="list-group mt-3">
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                Inbox
-                <span class="badge bg-primary rounded-pill">12</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                Ads
-                <span class="badge bg-primary rounded-pill">50</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                Junk
-                <span class="badge bg-primary rounded-pill">99</span>
-            </li>
-        </ul>
     </div>
 
+    <!-- card bootom -->
+    <div class="card my-3" style="width:400px">
+        <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+        <img class="card-img-bottom" src="https://images.unsplash.com/photo-1735257676933-828bfbdc03a2?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image">
+    </div>
+</div> 
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.js"></script>
+    <script>
+        window.onload = function() {
+            // Wait until the page is fully loaded
+            setTimeout(function() {
+                document.getElementById('preloader').style.display = 'none';  // Hide the preloader
+                document.querySelector('.content').style.display = 'block';   // Show the content
+            }, 1000);  // Adjust the timeout duration as needed
+        };
+    </script>
+
 </body>
 </html>
