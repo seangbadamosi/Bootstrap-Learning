@@ -194,3 +194,4 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * you can make dropdown right or left aligned by using dropdown-menu-end or dropdown-menu-start
 * If you want the dropdown menu to expand upwards instead of downwards, change the div element with class="dropdown" to "dropup":
 * The .dropdown-item-text class is used to add plain text to a dropdown item, or used on links for default link styling.
+* btn-group can help to add btn to a group either vertically or horizontally 

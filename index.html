@@ -23,6 +23,7 @@
             align-items: center;
             z-index: 9999;
         }
+
         .spinner {
             border: 10px solid #f3f3f3;
             border-top: 10px solid #3498db;
@@ -142,6 +143,32 @@
             </ul>
         </div>
 
+        <!-- Dropdowns horizontal group-->
+        <div class="btn-group my-3">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                </ul>
+            </div>
+
+            <!-- Dropdowns vertical group -->
+            <div class="btn-group-vertical mx-3">
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Tablet</a></li>
+                        <li><a class="dropdown-item" href="#">Smartphone</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        <!-- dropdown text -->
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Link 1</a></li>
             <li><a class="dropdown-item" href="#">Link 2</a></li>
@@ -149,7 +176,7 @@
             <li><a class="dropdown-item-text" href="#">Text Link</a></li>
             <li><span class="dropdown-item-text">Just Text</span></li>
         </ul>
-    </div> 
+    </div>  
 
 
 
@@ -161,7 +188,7 @@
             setTimeout(function() {
                 document.getElementById('preloader').style.display = 'none';  // Hide the preloader
                 document.querySelector('.content').style.display = 'block';   // Show the content
-            }, 1000);  // Adjust the timeout duration as needed
+            }, 2000);  // Adjust the timeout duration as needed
         };
     </script>
 
