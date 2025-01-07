@@ -204,3 +204,6 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 Note: For a elements, you can use the href attribute instead of the data-bs-target attribute:
 * by adding class of show beside the collapse class you can make the collapsible text show on default
 
+#### Accordion
+* An accordion in Bootstrap is a UI component used to display content in a collapsible and expandable manner. It organizes information into sections or panels, where only one section (or sometimes multiple, depending on configuration) can be expanded at a time.
+* Note: Use the data-bs-parent attribute to make sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.
