@@ -43,7 +43,7 @@
         }
     </style>
 
-    <title>Collapsible</title>
+    <title>Navs</title>
 </head>
 <body>
 
@@ -53,68 +53,237 @@
         </div>
 
 
-    <!-- Lesson 16 -->
+    <!-- Lesson 17 -->
 
-    <!-- Collapsible -->
-    <div class="content container text-center my-4">
-        <button data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
+    <!-- Navs -->
+    <div class="content container my-4">
+        <header>
 
-        <div id="demo" class=" collapse">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero minima ea repellat veniam <br> saepe voluptatum laudantium magnam aspernatur <br> ducimus quod molestiae placeat officia neque eveniet, aliquid ipsa numquam fugit earum.
-        </div>
+            <!-- Default nav -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link disabled">Gallery</a>
+                </li>
+            </ul>
 
-        <h2>Show Collapsible Content By Default</h2>
-        <p>Add the show class next to the collapse class to show the content by default.</p>
-        <p>Click on the button to toggle between showing and hiding content.</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo1">Simple collapsible</button>
-        <div id="demo1" class="collapse show center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
+            <!-- aligned nav -->
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Gallery</a>
+                </li>
+            </ul>
 
-        <!-- Accordion -->
-        <div class="mt-3">
-            <h2>Accordion Example</h2>
-            <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
-            <div id="accordion">
-                <div class="card">
-                    <div class="card-header">
-                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                        Collapsible Group Item #1
-                    </a>
-                </div>
-                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <!-- right aligned -->
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+
+            <!-- Aligned vertically -->
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">home</a>
+                </li>
+            </ul>
+        </header>
+
+        <header class="my-4">
+            <!-- Tabs -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </header>
+
+        <header class="">
+            <ul class="nav nav-pills my-3">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+
+            <!-- justified nav/pills -->
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul><br>
+
+
+            <ul class="nav nav-tabs nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+
+            <!-- Pills with dropdown -->
+            <ul class="nav nav-pills my-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+
+            <div class="container mt-3">
+                <h2>Toggleable Tabs</h2>
+                <br>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+                    </li>
+                </ul>
+            
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <h3>HOME</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="menu1" class="container tab-pane"><br>
+                        <h3>Menu 1</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div id="menu2" class="container tab-pane"><br>
+                        <h3>Menu 2</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header">
-                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                        Collapsible Group Item #2
-                    </a>
-                </div>
-                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-                        Collapsible Group Item #3
-                    </a>
-                </div>
-                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </div>
-                </div>
-            </div>
+            
+            <!-- Tab Nav -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="pill" href="#home1">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#menu3">Menu 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#menu4">Menu 2</a>
+                </li>
+            </ul>
+
+        <!-- Tab pills -->
+        <div class="tab-content">
+            <div class="tab-pane container active" id="home1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit cupiditate assumenda id, dolor labore ab laboriosam esse molestiae perferendis.</div>
+            <div class="tab-pane container fade" id="menu3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit cupiditate assumenda id, dolor labore ab laboriosam esse molestiae perferendis.</div>
+            <div class="tab-pane container fade" id="menu4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit cupiditate assumenda id, dolor labore ab laboriosam esse molestiae perferendis.</div>
         </div>
+    </header>
         
     </div>
 

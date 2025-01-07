@@ -207,3 +207,18 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 #### Accordion
 * An accordion in Bootstrap is a UI component used to display content in a collapsible and expandable manner. It organizes information into sections or panels, where only one section (or sometimes multiple, depending on configuration) can be expanded at a time.
 * Note: Use the data-bs-parent attribute to make sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.
+
+
+## Lesson 17 
+#### Navs
+* to create a simple horizontal menu add the nav class to a ul element folowed by nav-item for each li and add the nav-link for each anchor tag
+* by adding the class of justify-content-center and justify-content-end to a nav it can align the nav to be the x axis so the (justify(center, right);)
+* by adding class of flex-coloumn you can align nav vertically
+#### Nav with Tabs
+* Turn the nav menu into navigation tabs with the .nav-tabs class. Add the .active class to the active/current link. If you want the tabs to be togglable, see the last example on this page.
+#### Pills 
+* Turn the nav menu into navigation pills with the .nav-pills class. If you want the pills to be togglable
+* Justify the tabs/pills with the class of nav-justified class (equal width):
+* nav can have dropdowns so can pills too 
+* make the tabs toggleable, add the data-toggle="tab" attribute to each link for pills you add data-toggle="pill". Then add a .tab-pane class with a unique ID for every tab and wrap them inside a <div> element with class .tab-content.
+* If you want the tabs to fade in and out when clicking on them, add the .fade class to .tab-pane:
