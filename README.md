@@ -194,3 +194,13 @@ Since we do not have any page to link it to, and we do not want to get a "404" m
 * you can make dropdown right or left aligned by using dropdown-menu-end or dropdown-menu-start
 * If you want the dropdown menu to expand upwards instead of downwards, change the div element with class="dropdown" to "dropup":
 * The .dropdown-item-text class is used to add plain text to a dropdown item, or used on links for default link styling.
+
+## Lesson 16 
+#### Collapsible
+* Collapsibles are useful when you want to hide and show large amount of content
+* The collapse class indicates a collapsible element a div in our example this is the content that will be shown or hidden with a click of a button.
+* To control (show/hide) the collapsible content, add the data-bs-toggle="collapse" attribute to an a or a button element. Then add the data-bs-target="#demo" attribute to connect the button with the collapsible content (div id="demo")
+
+Note: For a elements, you can use the href attribute instead of the data-bs-target attribute:
+* by adding class of show beside the collapse class you can make the collapsible text show on default
+

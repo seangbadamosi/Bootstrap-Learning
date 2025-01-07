@@ -26,9 +26,9 @@
         .spinner {
             border: 10px solid #f3f3f3;
             border-top: 10px solid #3498db;
-            border-radius: 60%;
-            width: 12.5vw;
-            height: 25vh;
+            border-radius: 100vw;
+            width: 4vw;
+            height: 8vh;
             animation: spin 2s linear infinite;
         }
 
@@ -43,7 +43,7 @@
         }
     </style>
 
-    <title>Dropdowns</title>
+    <title>Collapsible</title>
 </head>
 <body>
 
@@ -53,103 +53,28 @@
         </div>
 
 
-    <!-- Lesson 15 -->
+    <!-- Lesson 16 -->
 
-    <!-- Dropdowns -->   
-    <div class="content container mt-3">
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-            </ul>
+    <!-- Collapsible -->
+    <div class="content container text-center my-4">
+        <button data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
+
+        <div id="demo" class=" collapse">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero minima ea repellat veniam <br> saepe voluptatum laudantium magnam aspernatur <br> ducimus quod molestiae placeat officia neque eveniet, aliquid ipsa numquam fugit earum.
         </div>
 
-        <!-- dropdown with divider (divider is like hr) -->
-        <div class="dropdown my-4">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">Link 4</a></li>
-            </ul>
+        <h2>Show Collapsible Content By Default</h2>
+        <p>Add the show class next to the collapse class to show the content by default.</p>
+        <p>Click on the button to toggle between showing and hiding content.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo1">Simple collapsible</button>
+        <div id="demo1" class="collapse show center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </div>
 
-        <div class="dropdown my-4">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="" class="dropdown-header">Header 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">Link 4</a></li>
-            </ul>
-        </div>
-
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                Dropdown button
-            </button>
-            <div class="dropdown-menu">
-                <li><a href="" class="dropdown-item">Link 1</a></li>  <!-- default -->
-                <li><a href="" class="dropdown-item active">Link 1</a></li> <!-- active -->
-                <li><a href="" class="dropdown-item disabled">Link 1</a></li> <!-- disabled -->
-            </div>
-        </div>
-
-        <!-- dropdown with dropdown facing left -->
-        <div class="dropdown dropstart" style="margin-left: 20vw;">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                Dropdown button
-            </button>
-            <div class="dropdown-menu">
-                <li><a href="" class="dropdown-item">Link 1</a></li>  <!-- default -->
-                <li><a href="" class="dropdown-item active">Link 1</a></li> <!-- active -->
-                <li><a href="" class="dropdown-item disabled">Link 1</a></li> <!-- disabled -->
-            </div>
-        </div>
-
-        <!-- right aligned -->
-        <div class="dropdown my-3" style="margin-left: 20vw;">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                Dropdown button right aligned
-            </button>
-            <div class="dropdown-menu dropdown-menu-end">
-                <li><a href="" class="dropdown-item">Link 1</a></li>  <!-- default -->
-                <li><a href="" class="dropdown-item active">Link 1</a></li> <!-- active -->
-                <li><a href="" class="dropdown-item disabled">Link 1</a></li> <!-- disabled -->
-            </div>
-        </div>
-
-        <div class="dropup">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                Dropup button
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-            </ul>
-        </div>
-
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Link 1</a></li>
-            <li><a class="dropdown-item" href="#">Link 2</a></li>
-            <li><a class="dropdown-item" href="#">Link 3</a></li>
-            <li><a class="dropdown-item-text" href="#">Text Link</a></li>
-            <li><span class="dropdown-item-text">Just Text</span></li>
-        </ul>
-    </div> 
+        
+    </div>
 
 
 
@@ -161,7 +86,7 @@
             setTimeout(function() {
                 document.getElementById('preloader').style.display = 'none';  // Hide the preloader
                 document.querySelector('.content').style.display = 'block';   // Show the content
-            }, 1000);  // Adjust the timeout duration as needed
+            }, 2000);  // Adjust the timeout duration as needed
         };
     </script>
 
