@@ -222,3 +222,13 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 * nav can have dropdowns so can pills too 
 * make the tabs toggleable, add the data-toggle="tab" attribute to each link for pills you add data-toggle="pill". Then add a .tab-pane class with a unique ID for every tab and wrap them inside a <div> element with class .tab-content.
 * If you want the tabs to fade in and out when clicking on them, add the .fade class to .tab-pane:
+
+## Lesson 18 
+#### Navbars
+* A navigation bar is a navigation header that is placed at the top or bottom of the page.
+* The navbar-expand-xxl|xl|lg|md|sm class determines when the navbar should stack vertically (on xxlarge, extra large, large, medium or small screens).
+* To add links inside the navbar, use either an ul element (or a div) with class="navbar-nav". Then add li elements with a .nav-item class followed by an a element with a .nav-link class:
+* by removing the navbar-expand class you make the navbar show as vertical aligned
+*  You can also remove the .navbar-expand-md class to always hide navbar links and display the toggler button
+* navbar with dropdown 
+* by using class of m-0 removes margin eg my-0 or mx-0 or mb-0 etc 
