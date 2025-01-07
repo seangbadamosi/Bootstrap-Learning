@@ -38,13 +38,13 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* Content Styles (for demo purposes) */
+        /* Content Styles (for demo1 purposes) */
         .content {
             display: none;
         }
     </style>
 
-    <title>Navbar</title>
+    <title>Carousel</title>
 </head>
 <body>
 
@@ -54,49 +54,87 @@
         </div>
 
 
-    <!-- Lesson 17 -->
+    <!-- Lesson 19 -->
 
-    <!-- Navbar -->
+    <!-- Carousel -->
 
     <div class="content">
-        <body style="height:1500px">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-            <div class="container-fluid ">
-                <br>
-                <h3>Sticky Navbar</h3>
-                <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
-                <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
-            </div>
-            
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Sticky top</a>
-                </div>
-            </nav>
-            
-            <div class="container-fluid"><br>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-                <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
 
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?t=st=1736267950~exp=1736271550~hmac=1b16c99695538b60803337ce205a7db12744c196b45a16b2682302e7429e3eb6&w=740" alt="Los Angeles" class="d-block w-100" style="height: 100vh;">
             </div>
+            <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?t=st=1736268354~exp=1736271954~hmac=653e0c9915a7748391e23e5023f6be081eebbfeae4d598e281f6fd2369a646f7&w=740" alt="Chicago" class="d-block w-100 " style="height: 100vh;">
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/premium-photo/background-sunset-savannah_265142-794.jpg?w=826" alt="New York" class="d-block w-100 " style="height: 100vh;">
+            </div>
+        </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- Carousel -->
+        <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+        </div>
+    
+        <!-- The slideshow/carousel with captions -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://img.freepik.com/premium-photo/background-sunset-savannah_265142-794.jpg?w=826" alt="Los Angeles" class="d-block w-100" style="height:100vh">
+            <div class="carousel-caption">
+                <h3>Madagascar</h3>
+                <p>We had such a great time in Madagascar!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?t=st=1736268354~exp=1736271954~hmac=653e0c9915a7748391e23e5023f6be081eebbfeae4d598e281f6fd2369a646f7&w=740" alt="Chicago" class="d-block w-100" style="height:100vh">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div> 
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?t=st=1736267950~exp=1736271550~hmac=1b16c99695538b60803337ce205a7db12744c196b45a16b2682302e7429e3eb6&w=740" alt="New York" class="d-block w-100" style="height:100vh">
+            <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+            </div>  
+        </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
     </div>
     
 

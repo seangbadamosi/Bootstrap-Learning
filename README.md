@@ -235,4 +235,20 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 * the fixed-top class give the navbar a fixed position a the top and the fixed-bottom gives a fixed position to the bottom
 * forms can also be added to the nav to make it have search bar like seo 
 * collapsible and dropdowns can be added to nav we just need to add the respective class for the collapsible or dropdowns
- 
+
+## Lesson 19 
+#### Carousel
+* carousel is a slideshow for cycling through elements 
+* carousel class is used to carousel 
+* carousel-indicators :adds indicator to the carousel   
+* carousel-inner : adds slides to the carousel 
+* carousel-item : specifies the content of each slide
+* carousel-control-prev : Adds a left (previous) button to the carousel, which allows the user to go back between the slides
+* carousel-control-next :Adds a right (next) button to the carousel, which allows the user to go forward between the slides
+* carousel-control-prev-icon : Used together with .carousel-control-prev to create a "previous" button
+* carousel-control-next-icon : Used together with .carousel-control-next to create a "forward" button
+* slide : Adds a CSS transition and animation effect when sliding from one item to the next. Remove this class if you do not want this effect
+* caption can be added to the carousel usingg the class carousel-item(the img is in the carousel-item while the caption or text is in the carousel-caption which is in the carousel item ) then the inner div should have class of carousel-caption (in cases i dont understand)
+.carousel-item img .carousel-caption{
+
+}
