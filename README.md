@@ -231,4 +231,8 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 * by removing the navbar-expand class you make the navbar show as vertical aligned
 *  You can also remove the .navbar-expand-md class to always hide navbar links and display the toggler button
 * navbar with dropdown 
-* by using class of m-0 removes margin eg my-0 or mx-0 or mb-0 etc 
+* by using class of m-0 removes margin eg my-0 or mx-0 or mb-0 etc
+* the fixed-top class give the navbar a fixed position a the top and the fixed-bottom gives a fixed position to the bottom
+* forms can also be added to the nav to make it have search bar like seo 
+* collapsible and dropdowns can be added to nav we just need to add the respective class for the collapsible or dropdowns
+ 
