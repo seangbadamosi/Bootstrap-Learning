@@ -44,7 +44,7 @@
         }
     </style>
 
-    <title>Carousel</title>
+    <title>Modals</title>
 </head>
 <body>
 
@@ -54,87 +54,41 @@
         </div>
 
 
-    <!-- Lesson 19 -->
+    <!-- Lesson 20-->
 
-    <!-- Carousel -->
+    <!-- Modal -->
 
     <div class="content">
-        <!-- Carousel -->
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?t=st=1736267950~exp=1736271550~hmac=1b16c99695538b60803337ce205a7db12744c196b45a16b2682302e7429e3eb6&w=740" alt="Los Angeles" class="d-block w-100" style="height: 100vh;">
-            </div>
-            <div class="carousel-item">
-            <img src="https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?t=st=1736268354~exp=1736271954~hmac=653e0c9915a7748391e23e5023f6be081eebbfeae4d598e281f6fd2369a646f7&w=740" alt="Chicago" class="d-block w-100 " style="height: 100vh;">
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.freepik.com/premium-photo/background-sunset-savannah_265142-794.jpg?w=826" alt="New York" class="d-block w-100 " style="height: 100vh;">
-            </div>
-        </div>
-
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+        <div class="container mt-3">
+            <h3>Modal Example</h3>
+            <p>Click on the button to open the modal.</p>
+            
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Open modal
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-
-        <!-- Carousel -->
-        <div id="demo1" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
-        </div>
-    
-        <!-- The slideshow/carousel with captions -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="https://img.freepik.com/premium-photo/background-sunset-savannah_265142-794.jpg?w=826" alt="Los Angeles" class="d-block w-100" style="height:100vh">
-            <div class="carousel-caption">
-                <h3>Madagascar</h3>
-                <p>We had such a great time in Madagascar!</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?t=st=1736268354~exp=1736271954~hmac=653e0c9915a7748391e23e5023f6be081eebbfeae4d598e281f6fd2369a646f7&w=740" alt="Chicago" class="d-block w-100" style="height:100vh">
-            <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-            </div> 
-        </div>
-        <div class="carousel-item">
-            <img src="https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?t=st=1736267950~exp=1736271550~hmac=1b16c99695538b60803337ce205a7db12744c196b45a16b2682302e7429e3eb6&w=740" alt="New York" class="d-block w-100" style="height:100vh">
-            <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
-            </div>  
-        </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-    </div>
-
+          </div>
+          
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Modal body..
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
     </div>
     
 

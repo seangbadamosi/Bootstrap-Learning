@@ -252,3 +252,8 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 .carousel-item img .carousel-caption{
 
 }
+
+## Lesson 20
+#### Modals
+* The Modal component is a dialog box/popup window that is displayed on top of the current page:
+* Use the .fade class to add a fading effect when opening and closing the modal:
