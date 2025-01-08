@@ -44,7 +44,7 @@
         }
     </style>
 
-    <title>Modals</title>
+    <title>Tooltips</title>
 </head>
 <body>
 
@@ -54,43 +54,23 @@
         </div>
 
 
-    <!-- Lesson 20-->
+    <!-- Lesson 21-->
 
-    <!-- Modal -->
+    <!-- Tooltips -->
 
     <div class="content">
-        <div class="container mt-3">
-            <h3>Modal Example</h3>
-            <p>Click on the button to open the modal.</p>
-            
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-                Open modal
-            </button>
-          </div>
-          
-          <!-- The Modal -->
-          <div class="modal" id="myModal">
-              <div class="modal-dialog modal-dialog- modal-md">
-                  <div class="modal-content">
-                      <!-- Modal Header -->
-                      <div class="modal-header">
-                          <h4 class="modal-title">Modal Heading</h4>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                      </div>
-          
-                      <!-- Modal body -->
-                      <div class="modal-body">
-                          Modal body..
-                      </div>
-          
-                      <!-- Modal footer -->
-                      <div class="modal-footer">
-                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        <div class="container mt-5">
+          <!-- default tooltip -->
+            <button type="button" data-bs-toggle="tooltip" title="top">click me</button><br><br>
 
+            <!-- tooltip with placement -->
+          <div class="">
+            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Hooray!">Hover</a><br><br>
+            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!">Hover</a><br><br>
+            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="left" title="Hooray!">Hover</a><br><br>
+            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Hover</a>
+          </div>
+        </div>
       </div>
     
 
@@ -98,15 +78,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.js"></script>
-    <script>
-        window.onload = function() {
-            // Wait until the page is fully loaded
-            setTimeout(function() {
-                document.getElementById('preloader').style.display = 'none';  // Hide the preloader
-                document.querySelector('.content').style.display = 'block';   // Show the content
-            }, 1000);  // Adjust the timeout duration as needed
-        };
-    </script>
+    <script src="./index.js"></script>
 
 </body>
 </html>

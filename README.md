@@ -266,3 +266,11 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 * modal can be cutomized using classes for sizing modal-lg and modal-sm
 * by class of modal-dialog and modal-xl  you make the modal bigger you can add the class of modal-sm to make it small
 * modal-fullscreen gives the modal a display of the fillwidth of the broswer by adding class of (lg-down) to modal-fullscreen or modal-fullscreen-lg-down it will give the modal the display of fullwidth from large (lg) size downward while upward will be a normal modal 
+
+## Lesson 21
+#### Tooltips
+* the tooltip component is small pop-up box that appears when the user moves the mouse pointer over an element
+* to create a tooltip, add the attribute of data-bs-toggle="tooltip" attribute to an element.
+* tooltips should be initialized with javaScript to work 
+* attribute of data-bs-placement helps with the placement of the tooltip whether it is top,right,left or bottom eg data-bs-placement="right"
+* for adding text in the tooltip you can use the attribute of title=""
