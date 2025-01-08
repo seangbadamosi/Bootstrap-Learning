@@ -256,4 +256,13 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 ## Lesson 20
 #### Modals
 * The Modal component is a dialog box/popup window that is displayed on top of the current page:
-* Use the .fade class to add a fading effect when opening and closing the modal:
+* Use the .fade class to add a fading transaction effect when opening and closing the modal:
+* The .modal-header class is used to define the style for the header of the modal.  
+* the class of modal is used to create a modal container
+* modal-dialog specifies the modal's content area 
+* modal-content wraps the content inside the modal (header, body, footer)
+* modal-header, modal-body, modal-footer this are sections inside the modal for structuring the header the body and footer
+* data-bs-toogle="modal" and data-bs-target="#exampleModal" : these attributes are used to trigger the modal when the button is clicked
+* modal can be cutomized using classes for sizing modal-lg and modal-sm
+* by class of modal-dialog and modal-xl  you make the modal bigger you can add the class of modal-sm to make it small
+* modal-fullscreen gives the modal a display of the fillwidth of the broswer by adding class of (lg-down) to modal-fullscreen or modal-fullscreen-lg-down it will give the modal the display of fullwidth from large (lg) size downward while upward will be a normal modal 
