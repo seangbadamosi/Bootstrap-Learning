@@ -44,7 +44,7 @@
         }
     </style>
 
-    <title>Tooltips</title>
+    <title>Popovers</title>
 </head>
 <body>
 
@@ -54,22 +54,32 @@
         </div>
 
 
-    <!-- Lesson 21-->
+    <!-- Lesson 22-->
 
-    <!-- Tooltips -->
+    <!-- Popovers -->
 
     <div class="content">
         <div class="container mt-5">
-          <!-- default tooltip -->
-            <button type="button" data-bs-toggle="tooltip" title="top">click me</button><br><br>
+          <!-- defulat popover -->
+            <button type="button"  class="btn btn-outline-dark" data-bs-toggle="popover" title="title" data-bs-content="lorem lorem lorem" >click me</button><br><br>
 
-            <!-- tooltip with placement -->
-          <div class="">
-            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Hooray!">Hover</a><br><br>
-            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!">Hover</a><br><br>
-            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="left" title="Hooray!">Hover</a><br><br>
-            <a href="#" class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Hover</a>
-          </div>
+
+          <!-- placed popover -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="top" title="Top popover"  data-bs-content="lorem">
+              Popover on top
+            </button><br><br>
+
+            <a href="#" class="btn btn-success" title="Header" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Content">Top</a><br><br>
+
+            <a href="#" class="btn btn-danger" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="contents lorem" title="title popover">popover</a><br><br>
+
+            <button type="button" data-bs-toggle="popover" data-bs-content="lorem lorem lorem" data-bs-placement="left" title="popover title">submit</button><br><br>
+            
+            <!-- Closing Popovers -->
+            <button type="button" role="button" data-bs-trigger="focus" class="btn btn-primary" data-bs-toggle="popover" title="Popover Header" data-bs-placement="left" data-bs-content="Some content inside the popover">Closing Popover</button><br><br>
+
+            <!-- hoverable popover -->
+            <button type="button" data-bs-toggle="popover"  role="button" data-bs-trigger="hover" data-bs-content="lorem Some content inside the popover" data-bs-placement="bottom">Hoverable Popover</button>
         </div>
       </div>
     

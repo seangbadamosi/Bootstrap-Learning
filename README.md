@@ -274,3 +274,18 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 * tooltips should be initialized with javaScript to work 
 * attribute of data-bs-placement helps with the placement of the tooltip whether it is top,right,left or bottom eg data-bs-placement="right"
 * for adding text in the tooltip you can use the attribute of title=""
+
+## Lesson 22 
+#### Popovers
+* Popover component is similar to tooltips
+* it is a type of pop-up that appears when the user clicks on an element. The difference is that the popover can contain much more content.
+* like tooltips it should be initialized with javaScript to work 
+* it need attribute like data-bs-toggle, title, data-bs-content
+* but this time the title is used for the title of the popover 
+` NOTE:" 'a,' unlike tooltips which are hovered on to see the text you must click the popovers in order for the text to show 'b,'tooltips can be used for icons`
+* you must touch the tooltips for it show and it can be removed the same way (that is by clicking it again)
+* if you want place the popover you need the following att(attributes) data-bs-toggle, data-bs-placement,title, 
+* data-bs-placement for popovers (i think it is a little tricky write the title attr last it should work with the placement [should be easy])
+`NOTE: always add #(hashtag ) in the href to prevent spinner / loader issues on click (you get right 👌)`
+* closing popovers can be activited using attr data-bs-trigger="focus"
+* hoverable popovers can activitated using attr data-bs-trigger="hover"
