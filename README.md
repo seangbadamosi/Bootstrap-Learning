@@ -289,3 +289,9 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 `NOTE: always add #(hashtag ) in the href to prevent spinner / loader issues on click (you get right 👌)`
 * closing popovers can be activited using attr data-bs-trigger="focus"
 * hoverable popovers can activitated using attr data-bs-trigger="hover"
+
+## Lesson 23
+#### Toasts
+* The toast component is like an alert box that is only shown for a couple of seconds when something happens (i.e. when the user clicks on a button, submits a form, etc.)
+* To create a toast, use the .toast class, and add a .toast-header and a .toast-body inside of it.
+` Note: Toasts are hidden by default. Use the .show class if you want to display it. To close it, use a <button> element and add data-bs-dismiss="toast":`
