@@ -295,3 +295,14 @@ Note: For a elements, you can use the href attribute instead of the data-bs-targ
 * The toast component is like an alert box that is only shown for a couple of seconds when something happens (i.e. when the user clicks on a button, submits a form, etc.)
 * To create a toast, use the .toast class, and add a .toast-header and a .toast-body inside of it.
 ` Note: Toasts are hidden by default. Use the .show class if you want to display it. To close it, use a <button> element and add data-bs-dismiss="toast":`
+
+## Lesson 24
+#### ScrollSpy
+* Scrollspy is used to automatically update links in a navigation list based on scroll position.
+* add data-bs-spy="scroll" to the element that should be used as the scrollable area (often this is the <body> element).
+
+Then add the data-bs-target attribute with a value of the id or the class name of the navigation bar (.navbar). This is to make sure that the navbar is connected with the scrollable area.
+
+Note that scrollable elements must match the ID of the links inside the navbar's list items (<div id="section1"> matches <a href="#section1">).
+
+The optional data-bs-offset attribute specifies the number of pixels to offset from top when calculating the position of scroll. This is useful when you feel that the links inside the navbar changes the active state too soon or too early when jumping to the scrollable elements. Default is 10 pixels.
