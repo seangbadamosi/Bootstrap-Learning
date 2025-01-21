@@ -46,9 +46,17 @@
         body{
             position: relative;
         }
+
+        span{
+            height: 10vh;
+            width: 10vw;
+            background-color: rgba(128, 128, 128, 0.068);
+            display: inline-block;
+        }
+
     </style>
 
-    <title>Sidenav</title>
+    <title>Utilities / Helper / Border</title>
 </head>
 <body >
 
@@ -58,51 +66,49 @@
         </div>
 
 
-    <!-- Lesson 26 -->
+    <!-- Lesson 27 -->
 
-    <!-- Offcanvas Sidebar -->
+    <!-- border -->
+    <!-- default width -->
 
-    <!-- sidenav content -->
-    
-    <!-- default sidenav -->
     <div class="content">
-        <div class="container mt-5">
-            <header>
-                <div class="offcanvas offcanvas-start" id="sidenav">
-                    <div class="offcanvas-header">
-                        <h1 class="offcanvas-title">Sidebar Heading</h1>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <button type="button" class="btn btn-secondary">Button</button>
-                    </div>
-                </div>
+        <div class="container mt-5 span">
+            <span class="border d-inline-block"></span>
+            <span class="border border-0 d-inline-block"></span>
+            <span class="border border-top-0 d-inline-block"></span>
+            <span class="border border-end-0 d-inline-block"></span>
+            <span class="border border-bottom-0 d-inline-block"></span>
+            <span class="border border-start-0 d-inline-block"></span> <br>
+            <span class="border-top"></span>
+            <span class="border-end"></span>
+            <span class="border-bottom"></span>
+            <span class="border-start"></span><br>
 
-                <!-- sidenav trigger -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#sidenav">
-                    Open Button
-                </button>
+            <!-- border width -->
+            <span class="border border-1"></span>
+            <span class="border border-2"></span>
+            <span class="border border-3"></span>
+            <span class="border border-4"></span>
+            <span class="border border-5"></span><br>
+            
+            <!-- border with colors -->
+            <span class="border border-3 border-primary"></span>
+            <span class="border border-3 border-success"></span>
+            <span class="border border-3 border-danger"></span>
+            <span class="border border-3 border-warning"></span><br>
 
-                <!-- dark sidenav -->
-                <div class="offcanvas offcanvas-end text-bg-dark" id="off">
-                    <div class="offcanvas-header">
-                        <h1 class="offcanvas-title">title bar</h1>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <p class="">Lorem ipsum dolor sit amet.</p>
-                        <button type="button" class="btn btn-danger">button</button>
-                    </div>
-                </div>
-                <button type="button" class="btn btn-warning " data-bs-toggle="offcanvas" data-bs-target="#off">click button</button>
-            </header>
+            <!-- colored border -->
+            <span class="border border-3 bg-warning-subtle rounded"></span>
+            <span class="border border-3 bg-warning-subtle rounded-top"></span>
+            <span class="border border-3 bg-warning-subtle rounded-end"></span>
+            <span class="border border-3 bg-warning-subtle rounded-start"></span>
+            <span class="border border-3 bg-warning-subtle rounded-pill"></span>
+            <span class="border border-3 bg-warning-subtle rounded-circle"></span><!-- because of the width i gave to the span through internal css it has affected the the rounded-circle class it should look like a perfect circle on default-->
+            <span class="border border-3 bg-warning-subtle rounded-1"></span>
+            <span class="border border-3 bg-warning-subtle rounded-2"></span>
+            <span class="border border-3 bg-warning-subtle rounded-3"></span>
+            <span class="border border-3 bg-warning-subtle rounded-4"></span>
+            <span class="border border-3 bg-warning-subtle rounded-5"></span>
         </div>
     </div>
     

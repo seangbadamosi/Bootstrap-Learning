@@ -324,3 +324,15 @@ The optional data-bs-offset attribute specifies the number of pixels to offset f
 * the example i use wa with a button but if i where to use an a tag i would have used href="#sidenav"
 * by adding text-bg-dark to the offcanvas you can make it dark (dark mode kind of stuff but no quite)
 * by adding btn-close-white class to btn-close class you make the button white it goes well with a dark sidebar
+
+## Lesson 27
+#### Utilities / helper class
+###### Border
+* they help with to quickly style tags without using css code 
+* note that bootsrap have nice utility classes too (new development though from bootstrap 4 and 5)
+* border it is used to add borders to a tag or remove border
+* by adding border-top or border-bottom you can give a tag a border of only bottom or top
+* by adding border-1 to border-5 to border class you can increase the width of the border
+* by adding border-primary to border you can make the border be blue colored 
+* by adding rounde3d you can make the border have a round look you have classes liked rounded, rounded-bottom, rounded-3 etc 
+some help with the border of one place while some help with the border all around and their is also rounded-circle
