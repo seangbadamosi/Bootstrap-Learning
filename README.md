@@ -306,3 +306,9 @@ Then add the data-bs-target attribute with a value of the id or the class name o
 Note that scrollable elements must match the ID of the links inside the navbar's list items (div id="section1" matches a href="#section1").
 
 The optional data-bs-offset attribute specifies the number of pixels to offset from top when calculating the position of scroll. This is useful when you feel that the links inside the navbar changes the active state too soon or too early when jumping to the scrollable elements. Default is 10 pixels.
+
+## Lesson 25
+#### Dark Mode
+* By default the bootstrap layout is in light mode or have a light bacground color
+* to change the page to dark mode you simply add data-bs-theme="dark" to the html tag
+* this applies to to other tags or element too, to change them to dark mode you add the attr of data-bs-theme="dark"
