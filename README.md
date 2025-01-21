@@ -312,3 +312,15 @@ The optional data-bs-offset attribute specifies the number of pixels to offset f
 * By default the bootstrap layout is in light mode or have a light bacground color
 * to change the page to dark mode you simply add data-bs-theme="dark" to the html tag
 * this applies to to other tags or element too, to change them to dark mode you add the attr of data-bs-theme="dark"
+
+## lesson 26 
+#### Offcanvas
+* they are similar to modals hidden by default but shown when clicked on the difference is that they are often used in sidenav 
+* offcanvas creates the the sidebar
+* offcanvas-start gives the sidebar a position of start or left and gives it a default width of 400px
+* offcanvas-title helps with the line height and proper margins to align the text with the button that has the btn-close class
+* offcanvas-body this is where the main content of the sidenav is being written
+* A trigger is needed to open the sidebar (or show) we need a button or a tag which will have a data-bs-target of anything as long as it is matching (i used #sidenav in the attr data-bs-target while i use sidenav in the offcanvas which is the container or main class for the offcanvas)
+* the example i use wa with a button but if i where to use an a tag i would have used href="#sidenav"
+* by adding text-bg-dark to the offcanvas you can make it dark (dark mode kind of stuff but no quite)
+* by adding btn-close-white class to btn-close class you make the button white it goes well with a dark sidebar
