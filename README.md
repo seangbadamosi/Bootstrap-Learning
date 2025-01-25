@@ -336,7 +336,18 @@ The optional data-bs-offset attribute specifies the number of pixels to offset f
 * by adding border-primary to border you can make the border be blue colored 
 * by adding rounded you can make the border have a round look you have classes liked rounded, rounded-bottom, rounded-3 etc 
 some help with the border of one place while some help with the border all around and their is also rounded-circle
+
 ###### Float and Clearfix
 * we can float an element to the right with the .float-end class or to the left with .float-start, and clear floats with the .clearfix class
 * floats  can also be responsive we can float an element to the left or to the right depending on screen width, with the responsive float classes (.float-*-start|end - where * is sm (>=576px), md (>=768px), lg (>=992px), xl (>=1200px) or xxl (>=1400px))
 * the float none class will make the element not to float or remove the float property
+
+##### Alignment
+* we can center an element using mx-auto class (it adds margin to left and right [that is the mx-auto])
+* or we can use text-center which i recommend 
+* we can use text-start and text-end to align left or right they are also responsive
+* by putting sm, md, lg, xl and etc we can make them have responsive alignment or alignment that wont show in a specific screen size
+* there are also different utilities available in bootstrap that works for texts such as the ones for text transform, font size and text decoration
+* for text transform we have text-uppercase, text-lowercase, text-capitalize
+* for font size we have fs-1, fs-2, and fs-3 till fs-6 etc fs-1 being the biggest to fs-6 being the smallest
+* for text decoration we have text-decoration-underline,  text-decoration-line-through etc
