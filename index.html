@@ -47,16 +47,10 @@
             position: relative;
         }
 
-        span{
-            height: 10vh;
-            width: 10vw;
-            background-color: rgba(128, 128, 128, 0.068);
-            display: inline-block;
-        }
 
     </style>
 
-    <title>Utilities / Helper / Border</title>
+    <title>Utilities / Helper / Floats & Clearfix</title>
 </head>
 <body >
 
@@ -66,49 +60,24 @@
         </div>
 
 
-    <!-- Lesson 27 -->
+    <!-- Lesson 27 b -->
 
-    <!-- border -->
-    <!-- default width -->
+    <!-- Float and Clearfix-->
 
     <div class="content">
-        <div class="container mt-5 span">
-            <span class="border d-inline-block"></span>
-            <span class="border border-0 d-inline-block"></span>
-            <span class="border border-top-0 d-inline-block"></span>
-            <span class="border border-end-0 d-inline-block"></span>
-            <span class="border border-bottom-0 d-inline-block"></span>
-            <span class="border border-start-0 d-inline-block"></span> <br>
-            <span class="border-top"></span>
-            <span class="border-end"></span>
-            <span class="border-bottom"></span>
-            <span class="border-start"></span><br>
-
-            <!-- border width -->
-            <span class="border border-1"></span>
-            <span class="border border-2"></span>
-            <span class="border border-3"></span>
-            <span class="border border-4"></span>
-            <span class="border border-5"></span><br>
-            
-            <!-- border with colors -->
-            <span class="border border-3 border-primary"></span>
-            <span class="border border-3 border-success"></span>
-            <span class="border border-3 border-danger"></span>
-            <span class="border border-3 border-warning"></span><br>
-
-            <!-- colored border -->
-            <span class="border border-3 bg-warning-subtle rounded"></span>
-            <span class="border border-3 bg-warning-subtle rounded-top"></span>
-            <span class="border border-3 bg-warning-subtle rounded-end"></span>
-            <span class="border border-3 bg-warning-subtle rounded-start"></span>
-            <span class="border border-3 bg-warning-subtle rounded-pill"></span>
-            <span class="border border-3 bg-warning-subtle rounded-circle"></span><!-- because of the width i gave to the span through internal css it has affected the the rounded-circle class it should look like a perfect circle on default-->
-            <span class="border border-3 bg-warning-subtle rounded-1"></span>
-            <span class="border border-3 bg-warning-subtle rounded-2"></span>
-            <span class="border border-3 bg-warning-subtle rounded-3"></span>
-            <span class="border border-3 bg-warning-subtle rounded-4"></span>
-            <span class="border border-3 bg-warning-subtle rounded-5"></span>
+        <div class="container mt-5">
+            <div class="clearfix">
+                <span class="float-start border border-primary">Float left</span>
+                <span class="float-end border border-primary">Float right</span>
+            </div>
+            <div class="">
+                <div class="float-sm-end">Float right on small screens or wider</div><br>
+                <div class="float-md-end">Float right on medium screens or wider</div><br>
+                <div class="float-lg-end">Float right on large screens or wider</div><br>
+                <div class="float-xl-end">Float right on extra large screens or wider</div><br>
+                <div class="float-xxl-end">Float right on XXL screens or wider</div><br>
+                <div class="float-none">Float none</div>
+            </div>
         </div>
     </div>
     

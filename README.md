@@ -334,5 +334,9 @@ The optional data-bs-offset attribute specifies the number of pixels to offset f
 * by adding border-top or border-bottom you can give a tag a border of only bottom or top
 * by adding border-1 to border-5 to border class you can increase the width of the border
 * by adding border-primary to border you can make the border be blue colored 
-* by adding rounde3d you can make the border have a round look you have classes liked rounded, rounded-bottom, rounded-3 etc 
+* by adding rounded you can make the border have a round look you have classes liked rounded, rounded-bottom, rounded-3 etc 
 some help with the border of one place while some help with the border all around and their is also rounded-circle
+###### Float and Clearfix
+* we can float an element to the right with the .float-end class or to the left with .float-start, and clear floats with the .clearfix class
+* floats  can also be responsive we can float an element to the left or to the right depending on screen width, with the responsive float classes (.float-*-start|end - where * is sm (>=576px), md (>=768px), lg (>=992px), xl (>=1200px) or xxl (>=1400px))
+* the float none class will make the element not to float or remove the float property
