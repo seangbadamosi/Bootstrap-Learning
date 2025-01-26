@@ -354,3 +354,8 @@ some help with the border of one place while some help with the border all aroun
 
 ##### Width 
 * in order to use the the width utilities you write class of w-25, w-50, w-75, w-100 which give them width set by the framework
+
+##### Height
+* just like width to add height you use class of h-25, h-50, h-75 and h-100 
+* there is lso h-auto, mh-100
+* the classes of height and width are pretty self explanatory the-25 classs is the smallest to the-100 class
