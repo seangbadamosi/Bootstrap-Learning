@@ -351,3 +351,6 @@ some help with the border of one place while some help with the border all aroun
 * for text transform we have text-uppercase, text-lowercase, text-capitalize
 * for font size we have fs-1, fs-2, and fs-3 till fs-6 etc fs-1 being the biggest to fs-6 being the smallest
 * for text decoration we have text-decoration-underline,  text-decoration-line-through etc
+
+##### Width 
+* in order to use the the width utilities you write class of w-25, w-50, w-75, w-100 which give them width set by the framework
