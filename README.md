@@ -384,3 +384,8 @@ some help with the border of one place while some help with the border all aroun
 * Create responsive video or slideshows based on the width of the parent that is what aspect ratio means.
 * By adding the .ratio class together with an aspect ratio of my choice ( for example .ratio-1x1) to a parent element, and add the embed (video or iframe) inside of it
 * I think this is self explanatory let not beat around you add a class of rattio to add div which covers the iframe and in the same div after the ratio you add the aspect ratio you want like ratio-1x1
+
+##### Visibilities
+* by adding adding visibile class you can make text have css property value of visible while invisible makes it invisible (the text)
+* we have been using close icon for some time so we know what it does it closes components it is inside, to make a close  you write button tag put type of button on it add btn-close
+* screen recoders  helps with making things hidden on different state like on visually hidden or on screen readers
