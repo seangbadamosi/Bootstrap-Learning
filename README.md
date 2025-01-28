@@ -372,10 +372,15 @@ some help with the border of one place while some help with the border all aroun
 * there are also negative classes for margin and padding
 * there also responsive margins and padding by adding the write screen sizr class eg mt-lg-5
 
-#### Shadow
+##### Shadow
 * for box shadow
 * shadow-none class removes shadow
 * shadow-sm class gives a small shadow
 * shadow gives a default shadow
 * shadow-lg class gives a big shadow
 * it is responsive 
+
+##### Aspect Ratio
+* Create responsive video or slideshows based on the width of the parent that is what aspect ratio means.
+* By adding the .ratio class together with an aspect ratio of my choice ( for example .ratio-1x1) to a parent element, and add the embed (video or iframe) inside of it
+* I think this is self explanatory let not beat around you add a class of rattio to add div which covers the iframe and in the same div after the ratio you add the aspect ratio you want like ratio-1x1
