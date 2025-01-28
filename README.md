@@ -389,3 +389,8 @@ some help with the border of one place while some help with the border all aroun
 * by adding adding visibile class you can make text have css property value of visible while invisible makes it invisible (the text)
 * we have been using close icon for some time so we know what it does it closes components it is inside, to make a close  you write button tag put type of button on it add btn-close
 * screen recoders  helps with making things hidden on different state like on visually hidden or on screen readers
+
+##### Background colors & Colors
+* this is also a class we are familar with colors and background colors bootstrap have predefined classes for colors and background colors 
+* lets start with background colors by using class bg class it stands for background then ou add the color primary is blue eg bg-primary,bg-success green 
+* text works the same way but you use text first then color
