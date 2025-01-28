@@ -371,3 +371,11 @@ some help with the border of one place while some help with the border all aroun
 * so m-1 to m-5 gives margin four sides while m-0 removes the margin
 * there are also negative classes for margin and padding
 * there also responsive margins and padding by adding the write screen sizr class eg mt-lg-5
+
+#### Shadow
+* for box shadow
+* shadow-none class removes shadow
+* shadow-sm class gives a small shadow
+* shadow gives a default shadow
+* shadow-lg class gives a big shadow
+* it is responsive 
