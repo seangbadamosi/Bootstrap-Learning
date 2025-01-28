@@ -359,3 +359,15 @@ some help with the border of one place while some help with the border all aroun
 * just like width to add height you use class of h-25, h-50, h-75 and h-100 
 * there is lso h-auto, mh-100
 * the classes of height and width are pretty self explanatory the-25 classs is the smallest to the-100 class
+
+##### Spacing
+* involves ready made margin and padding utility classes
+* for margin you use m and padding you use p
+* then adding t to both of them means margin top or padding top
+* b is for bottom 
+* s is start (that is left)
+* e is for end (that is right)
+* then writing only m or p sets a padding or margin everywhere or on all four sides (you must add numbers eg m-2)
+* so m-1 to m-5 gives margin four sides while m-0 removes the margin
+* there are also negative classes for margin and padding
+* there also responsive margins and padding by adding the write screen sizr class eg mt-lg-5
